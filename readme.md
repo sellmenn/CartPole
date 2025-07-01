@@ -12,10 +12,12 @@ This project implements a Deep Q-Learning (DQN) agent using PyTorch to solve the
 - **Video recording** of every Nth episode (customizable)
 
 ---
+## Demo
+![Elite Landing Demo](./sample1.gif)
 
 ## Dependencies
 
-Make sure to install:
+Install:
 
 ```bash
-pip install torch gymnasium matplotlib ipython
+pip install torch gymnasium 
