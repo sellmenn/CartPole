@@ -13,8 +13,8 @@ from copy import copy
 
 warnings.filterwarnings("ignore", message=".*Overwriting existing videos.*")
 
-EPOCHS = 5000
-BATCH_SIZE = 64
+EPOCHS = 1000
+BATCH_SIZE = 128
 GAMMA = 0.99 # Discount factor
 EPS_START = 0.9 # Initial probability of taking random action
 EPS_END = 0.05
